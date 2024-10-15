@@ -1,0 +1,29 @@
+name: wordle_flutter
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  csv: ^5.0.0  # Ensure to add the `csv` package for parsing
+  flame: ^1.8.1
+  provider: ^6.0.5
+  shared_preferences: ^2.3.2
+  charts_flutter: ^0.12.0
+  googleapis: ^10.0.0
+  googleapis_auth: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+
